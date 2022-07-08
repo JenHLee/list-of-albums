@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*Color set*/
+:root {
+    --background-color1: #ffaac7;
+    --background-color2: #fdaaaa;
+    --key-color: #7058be;
+    --logo-color: #245CE7;
+}
+
+
+.loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+body {
+    text-align: center;
+    background-color: var(--background-color1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border: #cc97a9 solid 1px;
+}
+
+th {
+    background-color: var(--key-color);
+    color: white;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #cc97a9;
+}
+
+.table__top {
+    background-color: #fff
+}
+
+.album__logo {
+    padding: 50px;
+}
+
+img {
+    padding: 5px;
+}
+
+.button__delete{
+    border-radius: 20px;
+    background-color: var(--key-color);
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 70px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button__delete:hover{
+    background-color: rgb(67, 60, 92);
+    color: white;
+}
