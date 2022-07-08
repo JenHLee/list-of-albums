@@ -1,4 +1,6 @@
-<p align="center">![logo4](https://user-images.githubusercontent.com/97131199/177935735-2073bd91-4af2-445a-8683-d27790a648e1.png)</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/97131199/177935735-2073bd91-4af2-445a-8683-d27790a648e1.png" />
+</p>
 
 # ⭐ React-List of Albums App
 - This web application is built using REST API to fetch data.  
